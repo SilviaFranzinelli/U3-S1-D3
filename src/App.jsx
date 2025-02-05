@@ -1,19 +1,19 @@
 
 
 import './App.css'
-import AllTheBook from './components/AllTheBook'
+import BookList from './components/BookList'
+
 import MyAlert from './components/MyAlert'
 import MyFooter from './components/MyFooter'
 import MyNav from './components/MyNav'
 
-function App() {
- 
 
+function App() {
   return (
     <>
       <MyNav/>
       <MyAlert/>
-      <AllTheBook/>
+      <BookList/>
       <MyFooter/>
     </>
   )
